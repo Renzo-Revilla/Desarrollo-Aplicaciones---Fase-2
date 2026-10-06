@@ -1,0 +1,10 @@
+LABORATORIO 7 - REACT
+
+Carpetas:
+experiencias/experiencia5  -> Navegación con React Router (TaskFlow)
+ejercicios/ejercicio1      -> Catálogo de productos con carrito
+
+Cada proyecto se ejecuta por separado:
+1) abrir su carpeta en VS Code
+2) npm install
+3) npm run dev

@@ -1,0 +1,16 @@
+body { margin:0; font-family:Arial,sans-serif; background:#f4f6f8; color:#222; }
+.cabecera { background:#1f2937; color:white; padding:20px 7%; display:flex; justify-content:space-between; align-items:center; }
+.cabecera h1 { margin:0; }
+.cabecera a { color:white; text-decoration:none; margin-left:20px; }
+.contenedor { max-width:1100px; margin:30px auto; padding:0 20px; }
+.buscador { width:100%; box-sizing:border-box; padding:12px; margin:0 0 24px; border:1px solid #bbb; border-radius:8px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:20px; }
+.producto { background:white; padding:18px; border-radius:12px; box-shadow:0 2px 8px #0002; display:flex; flex-direction:column; }
+.producto img { height:170px; width:100%; object-fit:contain; }
+.producto h3 { font-size:15px; flex:1; }
+.precio { font-weight:bold; font-size:18px; }
+button { border:0; border-radius:7px; padding:10px; cursor:pointer; background:#1f2937; color:white; }
+.item-carrito { display:flex; gap:20px; background:white; padding:15px; margin-bottom:12px; border-radius:10px; }
+.item-carrito img { width:90px; height:90px; object-fit:contain; }
+.error { color:#a00; }
+.mensaje { padding:30px; }
